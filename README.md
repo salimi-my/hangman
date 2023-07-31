@@ -1,8 +1,41 @@
-# React + Vite
+# [Hangman](https://hangman.salimi.my) &middot; [![Author Salimi](https://img.shields.io/badge/Author-Salimi-%3C%3E)](https://www.linkedin.com/in/mohamad-salimi/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a classic word puzzle game Hangman for testing vocabulary by guessing letters one at a time to solve it created using React.
 
-Currently, two official plugins are available:
+## Hangman
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Word puzzle game
+- Created using React
+
+## Tech/framework used
+
+- React
+- Tailwind
+
+## Starting the project
+
+Open the project then run the following command:
+
+```bash
+npm install
+# then
+npm run dev
+# to build
+npm run build
+```
+
+## Demo
+
+Hosted on personal cPanel server. [Click here](https://hangman.salimi.my) to visit.
+<br>
+Direct link: `https://hangman.salimi.my`
+
+## Screenshots
+
+#### Win
+
+![Win](/screenshots/screenshot-1.png)
+
+#### Lose
+
+![Lose](/screenshots/screenshot-2.png)
