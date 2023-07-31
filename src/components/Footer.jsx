@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className='fixed bottom-0 text-white z-10 text-center pb-2 w-full'>
-      <small>
+    <footer className='text-white z-10 text-center pb-2 flex justify-center'>
+      <small className='text-sm'>
         Created by{' '}
         <a
           href='https://www.salimi.my'

@@ -4,6 +4,7 @@
 
 .wrapper {
   height: 100%;
+  min-height: 900px;
   width: 100%;
   background: linear-gradient(180deg, #04fafd, 5%, #119dff, 70%, #030423);
   position: absolute;
