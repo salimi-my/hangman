@@ -44,16 +44,17 @@ const App = () => {
         </h1>
 
         {isWin && (
-          <div className='flex justify-center items-center min-h-[200px]'>
+          <div className='flex justify-center items-center min-h-[340px]'>
             <h2 className='font-bold text-4xl text-white'>You Win!</h2>
           </div>
         )}
         {!isWin && <Hangman numberOfGuesses={incorrectLetters.length} />}
         {isLose && (
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-center items-center mt-3'>
             <h2 className='font-bold text-4xl text-white'>You Lose!</h2>
           </div>
         )}
+        {!isLose && <div className='h-[52px]'></div>}
 
         <Word
           reveal={isLose}
@@ -71,6 +72,8 @@ const App = () => {
             </button>
           </div>
         )}
+
+        {!(isWin || isLose) && <div className='h-[82px]'></div>}
 
         <Keyboard
           disabled={isWin || isLose}
