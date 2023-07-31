@@ -19,7 +19,10 @@ const HangmanParts = [
 const Hangman = ({ numberOfGuesses }) => {
   return (
     <div className='flex justify-center mt-10'>
-      <img src={HangmanParts[numberOfGuesses]} className='max-h-[300px]' />
+      <img
+        src={HangmanParts[numberOfGuesses]}
+        className='h-[200px] md:h-[300px]'
+      />
     </div>
   );
 };

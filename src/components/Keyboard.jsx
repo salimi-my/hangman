@@ -34,8 +34,8 @@ const Keyboard = ({
   disabled = false
 }) => {
   return (
-    <div className='flex justify-center mt-10'>
-      <div className='grid grid-cols-6 md:grid-cols-10 gap-4'>
+    <div className='flex justify-center my-10'>
+      <div className='grid grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2 md:gap-4'>
         {keys.map((key) => {
           const active = correctLetters.includes(key);
           const inActive = incorrectLetters.includes(key);
